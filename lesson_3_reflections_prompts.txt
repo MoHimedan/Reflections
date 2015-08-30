@@ -15,3 +15,16 @@ Branch is used to develop a new work stream and allow the other to continue unal
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This allows for fast-forward merging. I will not have to do a merge conflict resolution.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaborating on code development without Git or GitHub would be far more difficult. Having the ability to watch a repo or a branch is great for collaboration. Also the pull request is a nice safety check to get a peer to review your branch changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When working on a new feature, I'd use a new branch. This guarantees that I won't break anything in master. Also, this way, master will not be edited by multiple people simultaneously, causing conflicts. Making changes directly in master is quicker and mostly safe when working on a project alone.
+
+
+
+
+
