@@ -12,4 +12,6 @@ Fork is used to create a GitHub copy of someone else's repo.
 Clone is used to copy a repo, usually one of your own, either from GitHub or locally.
 Branch is used to develop a new work stream and allow the other to continue unaltered.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
+This allows for fast-forward merging. I will not have to do a merge conflict resolution.
